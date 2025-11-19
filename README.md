@@ -1,8 +1,8 @@
-    Health Study – Dataanalys i Python
+# Health Study – Dataanalys i Python
 
 Detta projekt analyserar ett hälsodataset med fokus på blodtryck, rökning, kolesterol och grundläggande hälsoparametrar. Projektet genomför beskrivande statistik, visualiseringar, simuleringar, konfidensintervall och hypotesprövning enligt givna uppgiftsinstruktioner.
 
-    Innehåll
+## Innehåll
 
 Projektet består av:
 
@@ -18,7 +18,7 @@ io_utils.py – Funktioner för att läsa in och strukturera data
 
 health_study_dataset.csv – Datasetet som analyseras
 
-    Beskrivande Statistik
+## Beskrivande Statistik
 
 Projektet beräknar:
 
@@ -42,7 +42,7 @@ kolesterol
 
 Resultatet sammanställs i en DataFrame för överblick.
 
-    Visualiseringar
+## Visualiseringar
 
 Minst tre grafer skapas, t.ex.:
 
@@ -52,12 +52,12 @@ Boxplot av vikt per kön
 
 Stapeldiagram över andelen rökare
 
-    Simulering
+## Simulering
 
 En simulering av 1000 slumpade personer genomförs baserat på den observerade sjukdomssannolikheten i datan.
 Simulerad andel jämförs sedan med den verkliga andelen.
 
-    Konfidensintervall
+## Konfidensintervall
 
 Ett 95% konfidensintervall för systoliskt blodtryck beräknas med:
 
@@ -67,7 +67,7 @@ Normalapproximation
 
 Motivering och källa ges i rapporten.
 
-    Hypotesprövning
+## Hypotesprövning
 
 Hypotesen testas:
 
@@ -79,7 +79,7 @@ Ensidigt t-test (scipy.stats.ttest_ind)
 
 Resultat och tolkning sammanställs i notebooken.
 
-    Körning
+## Körning
 
 Starta projektet genom att öppna report.ipynb i Jupyter Notebook eller JupyterLab.
 
@@ -87,7 +87,7 @@ Se till att installera nödvändiga paket:
 
 pip install numpy pandas matplotlib scipy
 
-    Källor och Referenser
+## Källor och Referenser
 
 Projektet bygger på:
 
