@@ -22,23 +22,23 @@ health_study_dataset.csv – Datasetet som analyseras
 
 Projektet beräknar:
 
-Medelvärde
+* Medelvärde
 
-Median
+* Median
 
-Min / Max
+* Min / Max
 
 för variablerna:
 
-ålder
+* ålder
 
-vikt
+* vikt
 
-längd
+* längd
 
-systoliskt blodtryck
+* systoliskt blodtryck
 
-kolesterol
+* kolesterol
 
 Resultatet sammanställs i en DataFrame för överblick.
 
@@ -62,8 +62,6 @@ Simulerad andel jämförs sedan med den verkliga andelen.
 Ett 95% konfidensintervall för systoliskt blodtryck beräknas med:
 
 Normalapproximation
-
-(VG) Möjlighet till bootstrap-metod
 
 Motivering och källa ges i rapporten.
 
