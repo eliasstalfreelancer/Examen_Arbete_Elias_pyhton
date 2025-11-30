@@ -6,17 +6,13 @@ Detta projekt analyserar ett hälsodataset med fokus på blodtryck, rökning, ko
 
 Projektet består av:
 
-report.ipynb – Huvudfil med all analys, grafer och slutsatser
-
-analysis.py – Funktioner för beskrivande statistik och konfidensintervall
-
-viz.py – Funktioner för visualisering (histogram, boxplot, stapeldiagram)
-
-sim.py – Funktioner för simulering av sjukdomssannolikhet
-
-io_utils.py – Funktioner för att läsa in och strukturera data
-
-health_study_dataset.csv – Datasetet som analyseras
+- `report.ipynb` – Notebook med all analys och visualisering  
+- `analysis.py` – Funktioner för statistik, konfidensintervall, hypotesprövning och linjär regression  
+- `analysis_classes.py` – Klass för simulering (`DiseaseSimulator`)  
+- `io_utils.py` – Klass för inläsning av data  
+- `sim.py` – Funktioner för simulering  
+- `viz.py` – Visualiseringsfunktioner  
+- `health_study_dataset.csv` – Datasetet  
 
 ## Beskrivande Statistik
 
@@ -63,8 +59,6 @@ Ett 95% konfidensintervall för systoliskt blodtryck beräknas med:
 
 Normalapproximation
 
-(VG) Möjlighet till bootstrap-metod
-
 Motivering och källa ges i rapporten.
 
 ## Hypotesprövning
@@ -97,3 +91,4 @@ SCB – Statistikens Grunder
 
 SciPy dokumentation för ttest_ind
 
+EC-Utbilding 
